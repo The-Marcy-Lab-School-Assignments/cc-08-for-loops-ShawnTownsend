@@ -14,8 +14,8 @@ function countFromTwenty(i){
 
 //3
 function countToN(num){
-  for (let i = 1; i <= num; i++); {
-  console.log(num);
+  for (let i = 1; i < num + 1; i++); {
+  console.log(i);
   }
 }
 
@@ -23,14 +23,14 @@ function countToN(num){
 //4
 function countFromN(num){
   for (let i = num; i >= 1; i--); {
-  console.log(num);
+  console.log(i);
   }
 }
 
 //5
 function countEveryOdd(n){
      for(let i = 1; i <= n; i++){
-        if(i % 2 !=0)     
+        if(i % 2 != 0)     
         console.log(i);
 }
 }
