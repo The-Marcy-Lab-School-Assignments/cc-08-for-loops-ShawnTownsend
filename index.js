@@ -13,17 +13,17 @@ function countFromTwenty(i){
 }
 
 //3
-function countToN(n){
-  for (let i = 1; i <= n; i++); {
-  console.log(n);
+function countToN(num){
+  for (let i = 1; i <= num; i++); {
+  console.log(num);
   }
 }
 
 
 //4
-function countFromN(n){
-  for (let i = n; i >= 1; i--); {
-  console.log(n);
+function countFromN(num){
+  for (let i = num; i >= 1; i--); {
+  console.log(num);
   }
 }
 
